@@ -1,0 +1,26 @@
+{
+  "customers": [
+    { "customer_id": 1, "name": "Amit Sharma", "city": "Delhi" },
+    { "customer_id": 2, "name": "Priya Verma", "city": "Mumbai" },
+    { "customer_id": 3, "name": "Rahul Singh", "city": "Bangalore" },
+    { "customer_id": 4, "name": "Sneha Kapoor", "city": "Hyderabad" }
+  ],
+
+  "products": [
+    { "product_id": 101, "product_name": "Laptop", "price": 60000 },
+    { "product_id": 102, "product_name": "Headphones", "price": 2000 },
+    { "product_id": 103, "product_name": "Keyboard", "price": 800 },
+    { "product_id": 104, "product_name": "Monitor", "price": 15000 },
+    { "product_id": 105, "product_name": "Mouse", "price": 500 }
+  ],
+
+  "orders": [
+    { "order_id": 1001, "customer_id": 1, "product_id": 101, "quantity": 1 },
+    { "order_id": 1002, "customer_id": 1, "product_id": 103, "quantity": 2 },
+    { "order_id": 1003, "customer_id": 2, "product_id": 105, "quantity": 1 },
+    { "order_id": 1004, "customer_id": 3, "product_id": 102, "quantity": 3 },
+    { "order_id": 1005, "customer_id": 4, "product_id": 101, "quantity": 1 },
+    { "order_id": 1006, "customer_id": 2, "product_id": 104, "quantity": 1 },
+    { "order_id": 1007, "customer_id": 3, "product_id": 105, "quantity": 2 }
+  ]
+}
